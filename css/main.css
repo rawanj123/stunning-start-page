@@ -3,6 +3,7 @@ html {
   line-height: 1.5;
   font-family: Georgia, serif;
   background-color: #bebebe;
+  font-weight: normal;
 }
 
 *, *::before, *::after {
@@ -14,7 +15,7 @@ body {
 }
 
 header, h2, h3 {
-  font-family: PT Sans Narrow, serif;
+  font-family: "PT Sans Narrow", serif;
 }
 
 header {
