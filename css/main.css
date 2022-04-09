@@ -1,7 +1,38 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
+  font-family: Georgia, serif;
+  background-color: #bebebe;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header, h2, h3 {
+  font-family: PT Sans Narrow, serif;
+}
+
+header {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  background-color: #bd027d;
+  padding: 3rem;
+  margin: 0;
+  list-style-type: none;
 }
